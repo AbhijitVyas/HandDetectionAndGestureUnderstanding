@@ -8,6 +8,7 @@ The project works with Kinect camera and uses color and depth image segmentation
 Saved 3D points were used to identify basic gestures from 0 to 9 digits and shape identifications like square, rectangle, triangle or circle. However for final SVM classification, only 2D information was used in order to create feature vectors for each trajectories. Training data was recorded during the project work which is also part of the code! The prediction was measured by `preconditions` identified for each individual gesture and the classification/identification part was backed by SVM classifier. 
 
 ### Feature creation from 2D points to vector of codes
+![alt text](https://github.com/AbhijitVyas/HandDetectionAndGestureUnderstanding/blob/master/gradient.png)
 ![alt text](https://github.com/AbhijitVyas/HandDetectionAndGestureUnderstanding/blob/master/codes.png)
 
 ## Getting started
